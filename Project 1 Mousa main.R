@@ -40,7 +40,7 @@ df
 ggplot(df, aes(x=AGE, y = growth_rate.x)) + 
   geom_line(aes(y = WOMEN), color = "darkred") + 
   geom_line(aes(y = MEN), color="steelblue") 
-#geom_line()
+
 ######################################################
 
 
