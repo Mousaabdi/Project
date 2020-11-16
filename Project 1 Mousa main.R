@@ -1,5 +1,5 @@
 
-#down load the library
+#down-load the library
 library(ggplot2)
   
 #read the data 
@@ -31,7 +31,7 @@ colnames(women) [colnames(women)== "2015"] <-"WOMEN"
 M1 <- men[ , c("AGE","MEN","growth_rate")]
 W1 <- women[ , c("AGE","WOMEN","growth_rate")]
 
-#merge the M1 and W2 columns
+#merge the M1 and W1 columns
 total <- merge(M1,W1,by = "AGE")
 df = subset(total, select = -c(growth_rate.y))
 df
@@ -41,6 +41,8 @@ ggplot(df, aes(x=AGE, y = growth_rate.x)) +
   geom_line(aes(y = WOMEN), color = "darkred") + 
   geom_line(aes(y = MEN), color="steelblue") 
 
+#As far as we can see on the plot, women live longer than men according to 
+#our data (2011 – 2019)
 ######################################################
 
 
