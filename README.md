@@ -1,4 +1,4 @@
-I did some changes to my program and make it liite better hope it doesnt have any problem anymore
+I did some changes to my program and make it little better hope it doesnt have any problem anymore
 
 # Project
   Male/Female Life Expectancy
