@@ -5,7 +5,7 @@ library(ggplot2)
 #read the data 
 Data <- read.csv("nc-est2015-agesex-res.csv", header=TRUE)
 Data
-dim(Data)
+dim(data)
 
 #change the column name
 colnames(Data) [colnames(Data)== "CENSUS2010POP"] <-"2010"
